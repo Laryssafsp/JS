@@ -1,12 +1,6 @@
 // Log to console
 console.log("Digita o nome do seu jogador")
 
-// Tipos variáveis
-`string` - são variaveis que armazenam texto
-**`number` - são variaveis que armazenam números**
-`boolean` - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)
-
-
 // declarar uma variável
 let nickname = "Alíce"
 
