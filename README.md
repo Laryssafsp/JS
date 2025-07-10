@@ -2,8 +2,9 @@
 
 JavaScript é uma linguagem de programação de alto nível, interpretada, usada principalmente para criar páginas web interativas.
 
----
+[Mapa da Aventura](https://helpful-jump-17b.notion.site/Mapa-de-aventura-91f3e9bd923842149d4dba754dc65c07)
 
+---
 ## 🧠 Conceitos Básicos
 
 ### Declaração de Variáveis
@@ -37,6 +38,10 @@ var cidade = "SP";     // variável com escopo de função (evite usar)
 | Data                         | Armazena datas, no formato AAAA-MM-DD.                  |
 | Hora                         | Armazena horários, no formato HH:MM:SS.                 |
 
+#### Tipos variáveis
+`string` - são variaveis que armazenam texto <br>
+**`number` - são variaveis que armazenam números**  <br>
+`boolean` - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)  <br>
 
 # Operadores
 ```js
