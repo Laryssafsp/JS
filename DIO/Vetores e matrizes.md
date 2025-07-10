@@ -1,3 +1,7 @@
+**Variáveis** :: caixas -> informações simples [únicas] <br>
+**Armários em Linhas** :: vetores -> mesmo tipo  <br>
+**Armarios em bidimensional** :: matrizes -> informações de vários tipos.  <br>
+
 ```js
 let nomesPokemon = ["Pikachu" , "Chamander", "Bulbassaur"]
 let timePokemon = [
@@ -50,7 +54,7 @@ nomesPokemon.indexOf("Eevee");        // 0
 🗑️ Remover por valor
 ```js
 const index = nomesPokemon.indexOf("Jigglypuff");
-if (index !== -1) {
+if (index !:: -1) {
   nomesPokemon.splice(index, 1);     // Remove "Jigglypuff"
 }
 console.log(nomesPokemon); 
