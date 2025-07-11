@@ -2,7 +2,7 @@
 
 JavaScript é uma linguagem de programação de alto nível, interpretada, usada principalmente para criar páginas web interativas.
 
-[Mapa da Aventura](https://helpful-jump-17b.notion.site/Mapa-de-aventura-91f3e9bd923842149d4dba754dc65c07)
+[Mapa da Aventura](https://helpful-jump-17b.notion.site/Mapa-de-aventura-91f3e9bd923842149d4dba754dc65c07) - conteúdo explicativo dos arquivos deste repositório.
 
 ---
 ## 🧠 Conceitos Básicos
