@@ -44,6 +44,33 @@ calcularIdade("Mariana", 2008); // Vai mostrar Mariana tem 15 anos!
 ```
 Aqui, fizemos uma função chamada "calcularIdade" que usa dois amiguinhos: o nome e o ano de nascimento. Ela calcula a idade e conta para a gente!
 
-**Magia dos Parâmetros Concluída!**
+```js
+torrar("pão integral","99.99", undefined)
 
-Uau, amiguinho! Você aprendeu como usar os parâmetros para tornar as funções ainda mais mágicas. Agora você pode dar instruções especiais para as funções e vê-las fazerem coisas incríveis com essas informações. É como ter superpoderes no mundo da programação! 🌟🎩
+//function torrar(pao, valor,  nome = "Cliente"){
+function torrar(pao, valor,  nome){
+console.log("torrada feita com " + pao)
+console.log("ela é um pedido de " + nome)
+}
+```
+
+## Interporlação de strings
+Interpolação de strings é um recurso que permite inserir valores de variáveis ou expressões diretamente dentro de uma string, facilitando a montagem de textos dinâmicos.
+
+A forma de fazer interpolação depende da linguagem de programação. Aqui estão exemplos em várias linguagens populares:
+
+```js
+const nome = "Laryssa";
+const idade = 25;
+
+console.log(`Olá, meu nome é ${nome} e tenho ${idade} anos.`);
+// Saída: Olá, meu nome é Laryssa e tenho 25 anos.
+
+```
+
+```js
+createStringConnection("db_products", "felipe", "9876")
+
+function createStringConnection(databaseName, user, pass){
+console. loge connect : DBCONNECT; user=${user}; pass=${pass}; initial_database=${databaseName}
+```
