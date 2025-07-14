@@ -12,6 +12,19 @@ function getFirstName(name, splitChar){
     return firstName
 }
 ```
+
+```js
+let userName = getFirstName("Carlos-Almeida-Juanito-Gargalo", "-")
+console.log("Seja bem vindo " + userName)
+
+userName = getFirstName("Felipe Silva Han Solo", " ")
+console.log("Seja bem vindo " + userName)
+
+function getFirstName(name, splitChar = " "){
+  let firstName = name. split(splitChar) [0]
+  return firstName
+}
+```
 **Funções Também Podem Devolver Presentes**
 
 Algumas funções são legais e te dão um presente de volta, como quando você dá um desenho bonito para um amigo e ele te dá um sorriso de volta. Olha só como isso funciona com o JavaScript:
