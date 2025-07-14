@@ -1,5 +1,69 @@
 **Descobrindo um Mundo de Coisas Especiais com Objetos no JavaScript!**
 
+***Análogia:***
+Ao criar uma `class` seria como se fosse uma forma de bolo (genérico). Toda classe, como boa parte, deveria ter um método `constructor` é uma função. A `class` pode guardar dados/informações e funções/comportamento. 
+`this` chama `class`
+
+Se eu criar um padrão de guardar os dados de um usuário, posso criar uma classe para chamar, ou seja, ***padronizar!***
+Precisa possuir um métrodo especial, chamado `constructor` que é uma função para atribuir os valores dentro da `classe`. Chamar/Declarar as variáveis atravéss do `this.xxx` e pode declarar as funções sem a palavra `function`.
+
+Cada variável informada é uma propriedade `saborDaMassa`,`saborRecheio`
+```js
+// forma - classe
+class formaDeBolo{
+  constructor(saborDaMassa, saborRecheio){
+    this.saborDaMassa = saborDaMassa
+    this.saborRecheio = saborRecheio
+	}
+}
+```
+```js
+// bolo -> instanciando o objeto, ou seja, usando a classe.
+let boloFesta = new formaDeBolo("massa de chocolate","recheio de nutella")
+
+console.log(bolofesta)
+
+```js
+class formaDeBolo{
+  constructor(saborDaMassa, saborRecheio){
+    this.saborDaMassa = saborDaMassa
+    this.saborRecheio = saborRecheio
+	}
+}
+
+let boloFesta = new formaDeBolo("massa de chocolate","recheio de nutella")
+
+console.log(boloFesta) // o bolo todo
+console.log(boloFesta.saborDaMassa) // somente a massa
+console.log(boloFesta.saborRecheio) // somente o recheio
+```
+
+**Método**: uma função que trabalha no contexto da classe
+
+```js
+class formaDeBolo{
+	constructor(saborDaMassa, saborRecheio){
+    	this.saborDaMassa = saborDaMassa
+    	this.saborRecheio = saborRecheio
+	}
+    escrever(){
+        console.log(`Um delicioso bolo de ${this.saborDaMassa} com recheio de ${this.saborRecheio}`)
+  	}
+	assar(){
+    	console.log("bolo assado de " + this.saborDaMassa)
+        }
+	
+}
+
+let boloFesta = new formaDeBolo("chocolate","nutella")
+let boloPremium = new formaDeBolo("baunilha","coco")
+
+boloFesta.escrever()
+boloPremium.escrever()
+boloPremium.assar()
+```
+--
+
 **O Que São Esses Objetos Mágicos?**
 
 Sabe quando você tem uma caixa onde guarda seus brinquedos, roupas e coisas favoritas? Um objeto no JavaScript é como essa caixa mágica, onde você pode colocar um montão de informações importantes juntas!
